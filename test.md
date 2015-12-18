@@ -65,7 +65,7 @@ The detailed list of entities and the properties along with the description and 
 
     For e.g. If my custom field name is “PAN” then merge field is {{PAN}}
 
-If we have custom field type is a check box then merge field returns on or off value. And if have custom field type is a Date then merge field returns date in (<span style="color:orange;">MM/DD/YYYY</span>) format.
+If we have custom field type is a check box then merge field returns on or off value. And if have custom field type is a Date then merge field returns date in (<span style="color:orange;">`MM/DD/YYYY`</span>) format.
 
 ## **2.<u> Deals**
 
