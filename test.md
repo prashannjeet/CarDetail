@@ -34,8 +34,8 @@ The detailed list of entities and the properties along with the description and 
  |{{company}}| This merge field returns Company name.| Agile CRM|
 |{{title}}|This merge will field return job description or title.|Software Developer<br>Project Manager|
 |{{website}}|This merge field returns latest updated website address|https://www.agilecrm.com|
-|{{created_date}}|This merge field returns date of contact created in MM/DD/YYYY format.|11/30/2015
-|{{modified_date}}|This merge field returns last modified date of contact in MM/DD/YYYY format.|12/10/2015
+|{{created_date}}|This merge field returns date of contact created in `MM/DD/YYYY` format.|11/30/2015
+|{{modified_date}}|This merge field returns last modified date of contact in `MM/DD/YYYY` format.|12/10/2015
 |{{phone}}|This merge field returns latest updated phone number.| |
 |{{phone_work}}|This merge field returns work phone number. | |
 |{{phone_home}}|This merge field returns personal contact number.| |
@@ -63,7 +63,7 @@ The detailed list of entities and the properties along with the description and 
 
     For e.g. If my custom field name is “PAN” then merge field is {{PAN}}
 
-If we have custom field type is a check box then merge field returns on or off value. And if have custom field type is a Date then merge field returns date in (MM/DD/YYYY) format.
+If we have custom field type is a check box then merge field returns on or off value. And if have custom field type is a Date then merge field returns date in (`MM/DD/YYYY`) format.
 
 ### **2.  Deals**
 
@@ -72,8 +72,8 @@ If we have custom field type is a check box then merge field returns on or off v
 |{{deal.name}}|This merge field returns name of the deal.|Test|
 |{{deal.owner.name}}|This merge field returns name of the deal owner.|john|
 |{{deal.owner.email}}|This merge field returns email id of the deal owner.|john@agilecrm.com|
-|{{deal.close_date}}|This merge field returns closing date of deal in (MM/DD/YYYY) format.|11/23/2016|
-|{{deal.created_time}}|This merge field returns created date of deal in (MM/DD/YYYY) format.|11/23/2015|
+|{{deal.close_date}}|This merge field returns closing date of deal in (`MM/DD/YYYY`) format.|11/23/2016|
+|{{deal.created_time}}|This merge field returns created date of deal in (`MM/DD/YYYY`) format.|11/23/2015|
 |{{deal.milestone}}|This merge field returns Milestone of deal.|New/Won/Lost|
 |{{deal.description}}|This merge field returns Description of the deal.| |
 |{{deal.expected_value}}|This merge field returns Value of deal.| |
@@ -86,7 +86,7 @@ If we have custom field type is a check box then merge field returns on or off v
 
     {{deal.custom_data.Currency}}
 
-If we have custom field type is a check box then merge field returns on or off value. And if have custom field type is a Date then merge field returns date in (MM/DD/YYYY) format.
+If we have custom field type is a check box then merge field returns on or off value. And if have custom field type is a Date then merge field returns date in (`MM/DD/YYYY`) format.
 
 ### **3.  Calendar Event**
 
