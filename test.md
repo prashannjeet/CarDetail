@@ -159,7 +159,7 @@ e.g.- If custom field name is **“mobile”** then we have to write
 **Note:-** For more details visit  https://docs.shopify.com/api/customer
 
 
-### ** 3. Order Event**
+### **3. Order Event**
 
 | <center> <span style="font-size:15px;">Merge Fields      |  <center> <span style="font-size:15px;">Description  |
 |:---------------------------------|:------------------------------------|
