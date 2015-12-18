@@ -1,5 +1,4 @@
-
-<span style="color:red;">Testing</span>
+<font color="red">Status: **Not yet implemented**</font>
 
 # **Merge Field Functionality**
 
