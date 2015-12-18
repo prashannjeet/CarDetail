@@ -1,4 +1,4 @@
-<font color="red">Status: **Not yet implemented**</font>
+<font color:"red">Status: **Not yet implemented**</font>
 
 # **Merge Field Functionality**
 
