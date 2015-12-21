@@ -61,7 +61,7 @@ The detailed list of entities and the properties along with the description and 
 
     For e.g. If my custom field name is “PAN” then merge field is {{PAN}}
 
-If we have custom field type is a check box then merge field returns on or off value. And if have custom field type is a Date then merge field returns date in (`MM/DD/YYYY`) format.
+If we have custom field type is a check box then merge field returns on or off value. And if have custom field type is a Date then merge field returns date in (`DD Mon YYYY`) format.
 
 ### **2.  Deals**
 
@@ -84,7 +84,7 @@ If we have custom field type is a check box then merge field returns on or off v
 
     {{deal.custom_data.Currency}}
 
-If we have custom field type is a check box then merge field returns on or off value. And if have custom field type is a Date then merge field returns date in (`MM/DD/YYYY`) format.
+If we have custom field type is a check box then merge field returns on or off value. And if have custom field type is a Date then merge field returns date in (`DD Mon YYYY`) format.
 
 ### **3.  Calendar Event**
 
