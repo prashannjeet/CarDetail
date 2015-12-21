@@ -47,7 +47,7 @@ The detailed list of entities and the properties along with the description and 
 |{{location.country}}|This merge field returns Country name from contact address in coded form.|e.g. India- IN<br>United State-US|
 |{{location.zip}}|This merge field returns ZIP code or postal code from address.|500000|
 |{{twitter_id}}|This merge field returns twitter id.| [@agilecrm](https://twitter.com/@agilecrm)|
-|{{linkedin_id}}|This merge field returns Linkedin profile id.| |
+|{{linkedin_id}}|This merge field returns Linkedin profile id as it is which is saved by the owner.| |
 |{{owner.name}}|This merge field returns owner name .| Agile CRM|
 |{{owner.email}}|This merge field returns owner email id.|care@agilecrm.com|
 |{{owner.calendar_url}}|This merge field returns owner calender url address| |
