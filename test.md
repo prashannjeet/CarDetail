@@ -30,12 +30,10 @@ The detailed list of entities and the properties along with the description and 
 |{{score}}|It returns integer value of score.| |
 |{{email}}|This merge field returns latest email id of contact person.|michel_clark@gmail.com|
 |{{email_work}}|This merge field returns work email id of contact person.| |
- |{{email_home}}|This merge field returns personal email id of contact person.|  |
- |{{company}}| This merge field returns Company name.| Agile CRM|
+|{{email_home}}|This merge field returns personal email id of contact person.|  |
+|{{company}}| This merge field returns Company name.| Agile CRM|
 |{{title}}|This merge will field return job description or title.|Software Developer<br>Project Manager|
 |{{website}}|This merge field returns latest updated website address|https://www.agilecrm.com|
-|{{created_date}}|This merge field returns date of contact created in `MM/DD/YYYY` format.|11/30/2015
-|{{modified_date}}|This merge field returns last modified date of contact in `MM/DD/YYYY` format.|12/10/2015
 |{{phone}}|This merge field returns latest updated phone number.| |
 |{{phone_work}}|This merge field returns work phone number. | |
 |{{phone_home}}|This merge field returns personal contact number.| |
