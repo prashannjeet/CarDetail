@@ -432,13 +432,13 @@ Merge Field Syntax:-
    {{#emails}}{{data}}{{/emails}}
 ```
 
-### ** Output: **
+### **Output:**
     Work
     Home
     Personal
     Office
 
-# **Contact JSON Example**
+## **Contact JSON Example**
 ```javascript
 {
     phone=9454878787,
