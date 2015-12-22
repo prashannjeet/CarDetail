@@ -419,4 +419,74 @@ e.g.- If custom field name is **“mobile”** then we have to write
 
 <center>**Note:-** For more details visit https://stripe.com/docs/api#
 
-
+## **JSON Array Example**
+
+```
+{
+emails{ data:['Work','Home','personal','Office']}
+}
+
+
+
+Merge Field Syntax:-
+   {{#emails}}{{data}}{{/emails}}
+```
+
+### ** Output: **
+    Work
+    Home
+    Personal
+    Office
+
+# **Contact JSON Example**
+```javascript
+{
+    phone=9454878787,
+    first_name_fix=Michal,
+    website=www.agilecrm.com,
+    location={
+             address=Hitech City
+             city=Hyderabad
+             state=Telangana
+             country=IN
+             zip=500000
+    },
+    score=10,
+    emails={
+
+    },
+    DOJ=08Dec2015,
+    phones={
+
+    },
+    id=5678444713082880,
+    first_name=Michal,
+    title=SoftwareDevloper,
+    timezone=Asia/Kolkata,
+    email=michal_clark@agilecrm.com,
+    company=AgileCRM,
+    last_name=clark,
+    phone_work=18009800729
+    twitter_id=@michal
+    linkedin_id=michal_clark
+    owner={
+        id=6269836097748992,
+        calendar_url= https://prashannjeet.agilecrm.com/calendar/prashannjeet,
+        email=prashannjeet@agilecrm.com,
+        name=Prashannjeet,
+        signature=Mclark
+    },
+    last_name_fix=Clark,
+    name_fix=MichalClark
+}
+
+```
+
+### **Merge Field with condtions**
+
+## **Mustache**
+
+Agile supports advanced Mustache templates. You can use Mustache syntax in your email content or other places.
+Refer - http://mustache.github.io/mustache.5.html for conditions or loops.
+
+You can test your mustache template code using this tool - http://trymustache.com/
